@@ -21,6 +21,7 @@
     "@emotion/styled": "^11.3.0",
     "@mui/icons-material": "^5.0.1",
     "@mui/material": "^5.0.2",
+    "@mui/styles": "^5.0.2",
     "gatsby": "^3.14.2",
     "gatsby-plugin-asset-path": "^3.0.4",
     "gatsby-plugin-cname": "^1.0.0",
