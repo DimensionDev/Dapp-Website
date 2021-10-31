@@ -1,11 +1,13 @@
 import * as React from "react"
 import { useStyles } from "./cardStyles";
 import JadeSvg from '../images/jade.svg'
+import listIcon from '../images/list-icon.svg'
+import linkIcon from '../images/link.svg'
 
-export function Card (props) {
+export function ListCard (props) {
   const classes = useStyles(props)
   return (
-    <div className="w-full rounded-r-xl overflow-hidden mb-8">    
+    <div className={classes["list-card"] + " w-full rounded-r-xl overflow-hidden mb-8"}>    
       <div className={classes["top-shape"] + " w-full h-6 relative"}>
         <div className={classes["shape-1"] + " h-full absolute top-0 z-2"}>
           <p className="font-bold ml-3 -translate-y-1-1">{props.title}</p>
@@ -18,10 +20,20 @@ export function Card (props) {
         </div>
       </div>
       <div className="relative">
-        <div className={classes["middle-card"] + " w-full"}>
-          <p className="pl-7 pr-9 max-sm:px-4 pt-7 pb-3">
-            {props.text}
-          </p>
+        <div className={classes["middle-card"] + " w-full flex justify-between items-center"}>   
+          <img src={listIcon} alt="" className="ml-6" />
+          <div className={classes["ellipsis-card-wrapper"] + " w-full pl-7 pr-9 max-sm:px-4 pb-3 pt-5"}>
+            <div className="w-full flex justify-between items-center">
+              <p>Project name</p>     
+              <img src={linkIcon} alt="" className="cursor-pointer" />         
+            </div>
+            <div className={classes["ellipsis-card"]} >
+              <p className="text-sm pt-2">
+                {props.text}
+              </p>
+              
+            </div>
+          </div>
         </div>
         <div className={classes["middle-shape"]} />
         <div className={classes["middle-corner"]} />          

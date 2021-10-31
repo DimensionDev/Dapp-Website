@@ -10,6 +10,7 @@ module.exports = {
         4:4,
         5:5,
         6:6,
+        2000: 2000
       },
       dropShadow: {},
       colors: {
@@ -23,6 +24,7 @@ module.exports = {
         }
       },
       screens: {
+        md: "850px",
         "max-xsm": {
           max: "400px",
         },

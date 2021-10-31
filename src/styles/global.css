@@ -13,6 +13,10 @@ body {
   transform: translateY(-2px);
 }
 
+.translate-x-1-1{
+  transform: translateX(2px);
+}
+
 .mirror{ 
   transform: scale(-1, 1);
 }
