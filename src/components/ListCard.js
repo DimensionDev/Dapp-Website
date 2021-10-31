@@ -15,7 +15,7 @@ export function ListCard (props) {
         <div className={classes["top-corner"]}/>
         <div className={classes["shape-2"] + " w-full h-full absolute top-0 z-1"}>
           <div className="ml-2 mt-2 w-28 flex">
-            {(new Array(5).fill('')).map((_v, i) => <img src={JadeSvg} alt="" className={`opacity-${20 + i * 20}`} />)}
+            {(new Array(5).fill('')).map((_v, i) => <img src={JadeSvg} alt="" style={{opacity: 0.2 + i * 0.2}} />)}
           </div>              
         </div>
       </div>
@@ -41,7 +41,7 @@ export function ListCard (props) {
       <div className={classes["bottom-shape"]}>
         <div className={classes["shape-3"]}>
           <div className="ml-3 transform -translate-y-1 w-28 flex">
-            {(new Array(5).fill('')).map((_v, i) => <img src={JadeSvg} alt="" className={`opacity-${100 - i * 20} mirror`} />)}
+            {(new Array(5).fill('')).map((_v, i) => <img src={JadeSvg} alt="" style={{opacity: 1 - i * 0.2}} className="mirror" />)}
           </div>
         </div>
         <div className={classes["shape-4"]} />
