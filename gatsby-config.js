@@ -1,6 +1,6 @@
 module.exports = {
     siteMetadata: {
-        siteUrl: `https://d.app`,
+        siteUrl: `https://dimensiondev.github.io/dapp-website`,
     },
     plugins: [
         "gatsby-plugin-postcss",
