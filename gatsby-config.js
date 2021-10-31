@@ -16,5 +16,5 @@ module.exports = {
         "gatsby-plugin-use-query-params",
         "gatsby-plugin-react-helmet",
     ],
-    pathPrefix: "dapp-website"
+    pathPrefix: "/dapp-website"
 }

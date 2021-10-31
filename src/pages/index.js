@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { Card } from '../components/Card';
+import { SEO } from '../components/SEO';
 
 // markup
 const IndexPage = () => {
@@ -41,6 +42,7 @@ const IndexPage = () => {
   }, [domainText, domainIndex, isAdd, pause])
   return (
     <main>
+      <SEO title="D.APP" />
       <Navbar />
       <div className="mt-32 max-w-index w-9/12 max-sm:w-10/12 mx-auto text-white">
         <p className="text-base mb-16">
@@ -50,7 +52,7 @@ const IndexPage = () => {
         </p>
         <div className="w-full bg-blue-main-dark mt-14 h-20 lg:h-24 flex items-center max-sm:h-12">
           <p className="pl-3 max-sm:text-xl text-3xl sm:text-4xl lg:text-5xl text-blue-underline font-extrabold">
-            Https://<span className={!pause ? "border-r-4 border-blue-underline pr-1 mr-1" : ""}>{domainText}</span>.d.app
+            Https://<span className={!pause ? "border-r-2 lg:border-r-4 border-blue-underline pr-px lg:pr-1 mr-px lg:mr-1" : ""}>{domainText}</span>.d.app
           </p>
         </div>  
         <p className="text-base my-16">
