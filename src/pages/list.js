@@ -9,7 +9,7 @@ const ListPage = () => {
     <main>
       <SEO title="D.APP" />
       <Navbar />
-      <div className="mt-32 xl:max-w-5-1xl max-w-index w-10/12 mx-auto text-white flex flex-wrap xl:justify-between justify-center">         
+      <div className="mt-32 mb-24 xl:max-w-5-1xl max-w-index w-10/12 mx-auto text-white flex flex-wrap xl:justify-between justify-center">         
         <ListCard maxWidth={500} title="01" color="#5653FF" text="Get your own GitHub Page : If you haven’t have a GitHub Page , it’s a perfect time for you to log in to your GitHub account and set up your GitHub Page by following the instructions here. To get a head start you can simply use the generator with one of the provided themes and add some content to your new page." />
         <ListCard maxWidth={500} title="01" color="#030080" text="Get your own GitHub Page : If you haven’t have a GitHub Page , it’s a perfect time for you to log in to your GitHub account and set up your GitHub Page by following the instructions here. To get a head start you can simply use the generator with one of the provided themes and add some content to your new page." />
         <ListCard maxWidth={500} title="01" color="#030080" text="Get your own GitHub Page : If you haven’t have a GitHub Page , it’s a perfect time for you to log in to your GitHub account and set up your GitHub Page by following the instructions here. To get a head start you can simply use the generator with one of the provided themes and add some content to your new page." />

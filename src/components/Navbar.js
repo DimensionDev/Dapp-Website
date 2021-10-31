@@ -21,7 +21,7 @@ export const Navbar = () => {
   return (
     <nav
       className={
-        "sticky flex items-center px-7 my-7 justify-between w-full h-10 z-10"
+        "sticky flex items-center px-7 my-7 justify-between w-full h-10 z-10 max-sm:w-10/12 max-sm:px-0 max-sm:mx-auto"
       }
     >
       <Link to="/">

@@ -1,3 +1,4 @@
+import { NoEncryption } from "@mui/icons-material";
 import { makeStyles } from "@mui/styles";
 
 export const useStyles = makeStyles(() => ({
@@ -38,10 +39,25 @@ export const useStyles = makeStyles(() => ({
     display: '-webkit-box',
     '-webkit-line-clamp': 5,
     '-webkit-box-orient': 'vertical',
-    height: 147
+    height: 147,
+    "@media (max-width: 540px)": {
+      height: 187,
+      '-webkit-line-clamp': 7,
+    },
+    "@media (max-width: 400px)": {
+      height: 227,
+      '-webkit-line-clamp': 9,
+    }      
   },
   "ellipsis-card-wrapper": {
-    height: 155
+    height: 155,
+    "@media (max-width: 540px)": {
+      height: 195,
+    },
+    "@media (max-width: 400px)": {
+      height: 235,
+      '-webkit-line-clamp': 9,
+    }             
   },
   'middle-shape': {
     position: 'relative',
