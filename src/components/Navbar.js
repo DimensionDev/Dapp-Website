@@ -6,7 +6,7 @@ import JadeSvg from '../images/jade.svg'
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 import { Drawer, List } from "@mui/material";
-import Logo from '../images/logo.svg'
+import Logo from '../images/Logo.svg'
 
 export const Navbar = () => {
   const [path, setPath] = useState("");
