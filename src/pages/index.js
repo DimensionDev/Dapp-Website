@@ -1,11 +1,44 @@
 import * as React from "react"
-import JadeSvg from '../images/jade.svg'
+import { useState, useEffect } from "react"
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
 import { Card } from '../components/Card';
 
 // markup
 const IndexPage = () => {
+  const domainList = ['elephant', 'dog', 'human']
+  const [isAdd, setAdd] = useState(false)
+  const [domainText, setDomainText] = useState('elephant')
+  const [domainIndex, setDomainIndex] = useState(0)
+  const [pause, setPause] = useState(false)
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (pause) {
+        return
+      } 
+
+      if (!isAdd) {
+        if (domainText.length > 0) {
+          setDomainText(domainText.slice(0, domainText.length - 1))
+        } else {
+          setAdd(true)
+          setDomainIndex(domainList[domainIndex + 1] ? domainIndex + 1 : 0)
+        }
+      } else {
+        const currentLetter = domainList[domainIndex][domainText.length]
+        if (currentLetter) {
+          setDomainText(domainText + currentLetter)
+        } else {
+          setPause(true)
+          setTimeout(() => setPause(false), 2000)
+          setAdd(false)
+        }
+      }
+    }, Math.random() * 300)
+
+    return () => clearInterval(timer)
+  }, [domainText, domainIndex, isAdd, pause])
   return (
     <main>
       <Navbar />
@@ -17,7 +50,7 @@ const IndexPage = () => {
         </p>
         <div className="w-full bg-blue-main-dark mt-14 h-20 lg:h-24 flex items-center max-sm:h-12">
           <p className="pl-3 max-sm:text-xl text-3xl sm:text-4xl lg:text-5xl text-blue-underline font-extrabold">
-            Https://elephant.d.app
+            Https://<span className={!pause ? "border-r-4 border-blue-underline pr-1 mr-1" : ""}>{domainText}</span>.d.app
           </p>
         </div>  
         <p className="text-base my-16">

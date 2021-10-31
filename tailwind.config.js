@@ -38,7 +38,8 @@ module.exports = {
       minHeight: {},
       minWidth: {},
       maxWidth: {
-        index: 625
+        index: 625,
+        '5-1xl': 1050
       },
       height: {
         18: 75

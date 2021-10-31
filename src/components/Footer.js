@@ -9,10 +9,10 @@ export function Footer() {
       </div>
       <div className="w-full mt-1 h-8 flex justify-between items-center text-white max-sm:text-xxs">
         <p>Privacy · Imprint</p>
-        <p className="flex">
+        <div className="flex">
           <p className="mr-8 max-sm:mr-2">Last Update</p>
           <p>May 20, 2021</p>
-        </p>
+        </div>
       </div>
     </footer>
   )
