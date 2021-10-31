@@ -10,7 +10,7 @@ export function SEO(props) {
         content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
       />
       <title>{props.title}</title>
-      <link rel="shortcut icon" href="/favicon.ico" />
+      <link rel="shortcut icon" href="https://dimensiondev.github.io/dapp-website/favicon.ico" />
     </Helmet>
   );
 }
