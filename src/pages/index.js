@@ -58,11 +58,30 @@ const IndexPage = () => {
         <p className="text-base my-16">
           Please follow these steps to get your own free d.app subdomain for your GitHub page
         </p>
-        <Card title="Phase 01" color="#5653FF" text="Get your own GitHub Page : If you haven’t have a GitHub Page , it’s a perfect time for you to log in to your GitHub account and set up your GitHub Page by following the instructions here. To get a head start you can simply use the generator with one of the provided themes and add some content to your new page." />
-        <Card title="Phase 02" color="#030080" text="Choose a subdomain : Now you should determine your d.app subdomain: either choose your username or the name of your repo according to the existing GitHub Pages URL . More details in the wiki." />
-        <Card title="Phase 03" color="#030080" text="How to apply for your subdomain : Add a file named “CNAME” to your repo with a single line matching the domain you have chosen (e.g. “xxx.d.app” without quotes). If you have any problems, please check out the section about Custom URLs at GitHub Pages Help." />
-        <Card title="Phase 04" color="#030080" text="Time for waiting : Make a pull request in our GitHub repository that adds your subdomain to the list of existing D.APP domains to finish the procedure . Your new URL would go live as soon as possible. (please keep an eye on your pull request in case of a naming conflict or a question from our side)." />
-        <Card title="Phase 05" color="#030080" text="Remember to save your subdomain under “Custom domain”. For more details." />
+        <Card title="Phase 01" color="#5653FF">
+          <p>Get your own GitHub Page : If you haven’t have a GitHub Page , 
+            it’s a perfect time for you to log in to your GitHub account and set up your GitHub Page 
+            by following the instructions <a href="https://pages.github.com/" target="_blank" rel="noreferrer" className="font-semibold underline text-underline-offset hover:opacity-80">here</a>. 
+            To get a head start you can simply use the generator with one of 
+            the provided themes and add some content to your new page.
+          </p>
+        </Card>
+        <Card title="Phase 02" color="#030080">
+          <p>Choose a subdomain : Now you should determine your d.app subdomain: either choose your username or the name of your repo according to the existing GitHub Pages URL . More details in the wiki.</p>
+        </Card>
+        <Card title="Phase 03" color="#030080">
+          <p>How to apply for your subdomain : 
+            Add a file named “CNAME” to your repo with a single line matching the domain you have chosen 
+            (e.g. “xxx.d.app” without quotes). If you have any problems,
+            please check out the section about <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site#creating-and-committing-a-cname-file" target="_blank" className="font-semibold underline text-underline-offset hover:opacity-80">Custom URLs</a> at GitHub Pages Help.
+          </p>
+        </Card>
+        <Card title="Phase 04" color="#030080">
+          <p>Time for waiting : Make a pull request in our GitHub repository that adds your subdomain to the list of existing D.APP domains to finish the procedure . Your new URL would go live as soon as possible. (please keep an eye on your pull request in case of a naming conflict or a question from our side).</p>
+        </Card>
+        <Card title="Phase 05" color="#030080">
+          <p>Remember to save your subdomain under “Custom domain”. <a href="https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" target="_blank" rel="noreferrer" className="font-semibold underline text-underline-offset hover:opacity-80">For more details</a>.</p>
+        </Card>
         <p className="text-base my-14">
           And of course , your page need to provide some reasonable content with a clear connection to DAPP.
         </p>                

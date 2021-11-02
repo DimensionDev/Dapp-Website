@@ -20,7 +20,7 @@ export function Card (props) {
       <div className="relative">
         <div className={classes["middle-card"] + " w-full"}>
           <p className="pl-7 pr-9 max-sm:px-4 pt-7 pb-3">
-            {props.text}
+            {props.children}
           </p>
         </div>
         <div className={classes["middle-shape"]} />
