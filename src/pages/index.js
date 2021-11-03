@@ -52,7 +52,7 @@ const IndexPage = () => {
         </p>
         <div className="w-full bg-blue-main-dark mt-14 h-20 lg:h-24 flex items-center max-sm:h-12">
           <p className="pl-3 max-sm:text-xl text-3xl sm:text-4xl lg:text-5xl text-blue-underline font-extrabold">
-            Https://<span className={!pause ? "border-r-2 lg:border-r-4 border-blue-underline pr-px lg:pr-1 mr-px lg:mr-1" : ""}>{domainText}</span>.d.app
+            https://<span className="pr-px lg:pr-1 mr-px"><span className="px-1">{domainText}</span><span className={(!pause ? "" : "blink-cursor") + " border-r-2 lg:border-r-4 border-blue-underline"}></span></span>.d.app
           </p>
         </div>  
         <p className="text-base my-16">

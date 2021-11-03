@@ -25,6 +25,32 @@ body {
   text-underline-offset: 3px;
 }
 
+.blink-cursor {
+  animation: blink 1s infinite;
+  opacity: 1;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  24.9% {
+    opacity: 1;
+  }    
+  25% {
+    opacity: 0;
+  }  
+  75% {
+    opacity: 0;
+  }    
+  75.1% {
+    opacity: 1;
+  }  
+  100% {
+    opacity: 1;
+  }
+}
+
 
 
 
