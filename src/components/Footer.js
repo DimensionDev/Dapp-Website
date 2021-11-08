@@ -17,7 +17,7 @@ export function Footer(props) {
         <p>Privacy · Imprint</p>
         <div className="flex">
           <p className="mr-8 max-sm:mr-2">Last Update</p>
-          <p>November 2, 2021</p>
+          <p>November 8, 2021</p>
         </div>
       </div>
     </footer>
