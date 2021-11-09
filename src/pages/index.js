@@ -47,7 +47,7 @@ const IndexPage = () => {
       <div className="mt-32 max-w-index w-9/12 max-sm:w-10/12 mx-auto text-white">
         <p className="text-base mb-16">
           When the decentralization becomes the reality for the world , do you want to have a
-          free webspace to host your own decentralized project ? 
+          free webspace to host your own decentralized project? 
           Now we can provide you a free GitHub URL like one of these : 
         </p>
         <div className="w-full bg-blue-main-dark mt-14 h-20 lg:h-24 flex items-center max-sm:h-12">
@@ -59,7 +59,7 @@ const IndexPage = () => {
           Please follow instructions below to get your own free d.app subdomain for your GitHub page.
         </p>
         <Card title="Phase 01" color="#030080">
-          <p>Get your own GitHub Page : If you haven’t have a GitHub Page , 
+          <p>Get your own GitHub Page : If you haven’t have a GitHub Page, 
             it’s a perfect time for you to log in to your GitHub account and set up your GitHub Page 
             by following the instructions <a href="https://pages.github.com/" target="_blank" rel="noreferrer" className="font-semibold underline text-underline-offset hover:opacity-80">here</a>. 
             To get a head start you can simply use the generator with one of 
@@ -67,29 +67,29 @@ const IndexPage = () => {
           </p>
         </Card>
         <Card title="Phase 02" color="#030080">
-          <p>Choose a subdomain : You should determine your d.app subdomain. Either choose your username or the name of your repo according to the existing GitHub Pages URL( for example: http://elephant.github.io/mask, either "elephant.dapp.org" or "mask.dapp.org" would be possible) . More details in the wiki.</p>
+          <p>Choose a subdomain : You should determine your d.app subdomain. Either choose your username or the name of your repo according to the existing GitHub Pages URL (for example: http://elephant.github.io/mask, either "elephant.dapp.org" or "mask.dapp.org" would be possible). More details in the wiki.</p>
         </Card>
         <Card title="Phase 03" color="#030080">
           <p>
-            Apply your subdomain : Add a file named “CNAME” to your repo with a single line matching the domain you have chosen (e.g. “xxx.d.app” without quotes). 
+            Apply your subdomain : Add a file named "CNAME" to your repo with a single line matching the domain you have chosen (e.g. "xxx.d.app" without quotes). 
             If you have any problems, please check out the at 
-            GitHub Pages Help section about  
+            GitHub Pages Help section about 
             <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site#creating-and-committing-a-cname-file" target="_blank" className="font-semibold underline text-underline-offset hover:opacity-80">
               Custom URLs
             </a>.
           </p>
         </Card>
         <Card title="Phase 04" color="#030080">
-          <p>Time for waiting : Make a pull request in our GitHub repository that adds your subdomain to the list of existing D.APP domains to finish the procedure . Your new URL would go live as soon as possible. (Please keep an eye on your pull request in case of a naming conflict or feedback from our side).</p>
+          <p>Time for waiting : Make a pull request in our GitHub repository that adds your subdomain to the list of existing D.APP domains to finish the procedure. Your new URL would go live as soon as possible. (Please keep an eye on your pull request in case of a naming conflict or feedback from our side).</p>
         </Card>
         <Card title="Phase 05" color="#030080">
-          <p>Congraduations! Now you have your own dapp subdomain: Remember to save your subdomain under “Custom domain". <a href="https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" target="_blank" rel="noreferrer" className="font-semibold underline text-underline-offset hover:opacity-80">For more details</a>.</p>
+          <p>Congraduations! Now you have your own dapp subdomain: Remember to save your subdomain under "Custom domain". <a href="https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" target="_blank" rel="noreferrer" className="font-semibold underline text-underline-offset hover:opacity-80">For more details</a>.</p>
         </Card>
         <p className="text-base my-14">
-          And of course , your page need to provide some reasonable content with a clear connection to DAPP.
+          And of course, your page need to provide some reasonable content with a clear connection to DAPP.
         </p>                
         <p className="text-base mt-14 mb-32">
-          As the owner of the repository, you keep complete control over your published content. But that also means  all rights and duties that come along with publishing a website remain in your responsibility.
+          As the owner of the repository, you keep complete control over your published content. But that also means all rights and duties that come along with publishing a website remain in your responsibility.
         </p>                    
       </div>
       <Footer />
