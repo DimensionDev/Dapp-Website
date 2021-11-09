@@ -83,7 +83,7 @@ const IndexPage = () => {
           <p>Time for waiting : Make a pull request in our GitHub repository that adds your subdomain to the list of existing D.APP domains to finish the procedure. Your new URL would go live as soon as possible. (Please keep an eye on your pull request in case of a naming conflict or feedback from our side).</p>
         </Card>
         <Card title="Phase 05" color="#030080">
-          <p>Congraduations! Now you have your own dapp subdomain: Remember to save your subdomain under "Custom Domain". <a href="https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" target="_blank" rel="noreferrer" className="font-semibold underline text-underline-offset hover:opacity-80">For more details</a>.</p>
+          <p>Congraduations! Now you have your own dapp subdomain: Remember to save your subdomain under "Custom domain". <a href="https://docs.github.com/cn/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site" target="_blank" rel="noreferrer" className="font-semibold underline text-underline-offset hover:opacity-80">For more details</a>.</p>
         </Card>
         <p className="text-base my-14">
           And of course, your page need to provide some reasonable content with a clear connection to DAPP.
